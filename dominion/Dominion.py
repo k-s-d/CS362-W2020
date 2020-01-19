@@ -276,7 +276,7 @@ class Bureaucrat(Action_card):
                             player.deck.insert(0,c)
                             break
                         
-class Militia(Action_card):
+class Militiar(Action_card):
     def __init__(self):
         Action_card.__init__(self,"Militia",4,0,0,0,2)
     def play(self,this_player,players,supply,trash):
