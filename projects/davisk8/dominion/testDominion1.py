@@ -13,13 +13,7 @@ import testUtility
 import string
 
 #Get player names
-player_names = ["Annie","Annie","*Annie"]
-
-#Generate random players
-for i in range(100):
-    randomName = ''.join(random.choice(string.ascii_lowercase) for x in range(6))
-    randomName = "*" + randomName
-    player_names.append(randomName)
+player_names = ["Annie","*Bernie","*Donald"]
 
 #define supply order
 supply_order = testUtility.supplyOrder()
